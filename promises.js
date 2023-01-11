@@ -1,9 +1,10 @@
+const url = 'https://api.quotable.io/random';
+
 window.onload = function() {
 	refreshQuote();
 }
 
 function refreshQuote() {
-	let url = 'https://api.quotable.io/random';
 	let div = document.getElementById( 'quote' );
 	div.innerHTML = '';
 	fetch( url )
