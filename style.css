@@ -1,0 +1,17 @@
+#container {
+ margin: auto;
+	width: 50%;
+}
+
+#container > div {
+	width: 50%;
+	height: 100%;
+	margin: 10px;
+	background-color: #03a9f43d;
+	padding: 50px;
+	text-align: center;
+}
+
+#author {
+	text-align: right;
+}
