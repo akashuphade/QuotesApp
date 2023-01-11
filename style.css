@@ -1,6 +1,5 @@
 #container {
  margin: auto;
-	width: 50%;
 }
 
 #container > div {
@@ -10,8 +9,25 @@
 	background-color: #03a9f43d;
 	padding: 50px;
 	text-align: center;
+	margin: auto;
+}
+
+#refresh {
+	padding: 10px;
+	width: 20%;
 }
 
 #author {
 	text-align: right;
+	font-weight: lighter;
+	font-family: cursive;
+	color: crimson;
+}
+
+span {
+	display: block;
+	text-align: center;
+	margin: 10px;
+	font-weight: bold;
+	font-size: xx-large;
 }
